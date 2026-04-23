@@ -1,0 +1,102 @@
+/* ════════════════════════════════════════════════════
+   MOBILE.CSS — Styling khusus mobile
+   Loaded via: <link rel="stylesheet" media="(max-width:640px)">
+   Breakpoint: 640px ke bawah
+   ════════════════════════════════════════════════════ */
+
+@media(max-width:640px){
+  :root{--nav-h:56px;--sub-h:44px}
+
+  /* — Top navigation — */
+  .topnav{padding:0 12px;gap:8px}
+  .nav-search,.nav-actions{display:none}
+  .nav-ham{display:flex}
+  .nav-search-mob{display:flex}
+
+  /* — Breadcrumb — single line dengan ellipsis di item terakhir — */
+  .breadcrumb{padding:8px 14px;font-size:11px}
+  .breadcrumb a{max-width:80px;overflow:hidden;text-overflow:ellipsis}
+  .breadcrumb .cur{flex:1;min-width:0}
+
+  /* — Anti-overflow horizontal di mobile — */
+  .app-hero,.card,.app-list-item{max-width:100%}
+  .app-rank{left:0;top:-4px;width:24px;height:24px;font-size:11px}
+  .app-list-item{padding-left:16px;overflow:visible}
+  .app-actions{flex-wrap:wrap}
+  .about-body,.app-list-desc,.review-text,.app-title{word-wrap:break-word;overflow-wrap:break-word}
+
+  /* — Page wrap: padding bawah hanya untuk install bar (~70px + margin aman) — */
+  .page-wrap{padding:0 14px 100px}
+  .main-grid{gap:12px}
+
+  /* — App hero / header artikel — */
+  .app-hero{padding:16px;gap:14px;border-radius:var(--r-sm)}
+  .app-icon{width:80px;height:80px;border-radius:18px}
+  .app-title{font-size:18px;line-height:1.3}
+  .app-dev{font-size:12px;margin-bottom:10px}
+  .app-stats{margin-bottom:14px}
+  .stat-item{padding:0 8px;min-width:52px}
+  .stat-val{font-size:12px}
+  .stat-label{font-size:10px}
+  .app-badges{margin-bottom:14px;gap:6px}
+  .badge{font-size:11px;padding:3px 10px}
+  .btn-install{padding:11px 28px;font-size:13px}
+  .btn-wish{padding:10px 14px;font-size:13px}
+  .wish-lbl{display:none}
+
+  /* — Cards & section — */
+  .card{padding:16px;border-radius:var(--r-sm);margin-bottom:12px}
+  .card-title{font-size:15px;margin-bottom:14px;padding-bottom:12px}
+  .ss-card{width:130px;height:231px}
+  .ss-emoji{font-size:42px}
+  .big-num{font-size:48px}
+
+  /* — About body: sesuaikan tinggi preview & spacing paragraf di mobile — */
+  .about-body{font-size:13px;line-height:1.65;max-height:120px}
+  .about-body p{margin-bottom:10px !important}
+  .about-body p:last-child{margin-bottom:0 !important}
+
+  /* — App list: ukuran compact di mobile — */
+  .app-list{gap:12px}
+  .app-list-item{padding:12px}
+  .app-list-desc{font-size:12px;line-height:1.5}
+  .app-list-meta{gap:5px;margin-bottom:8px}
+  .app-list-cta{padding:6px 16px;font-size:11px}
+
+  /* — Sidebar & bottom nav hidden, hanya install bar tampil — */
+  .sidebar{display:none}
+  .bottom-nav{display:none}
+  .install-bar{display:flex}
+
+  /* — Install bar menempel di bottom (bukan di atas bottom nav lagi) — */
+  .install-bar{padding:10px 12px;gap:10px;bottom:0;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+  .ib-ico{width:40px;height:40px;border-radius:9px}
+  .ib-info{min-width:0;overflow:hidden}
+  .ib-name{font-size:12px;font-weight:600}
+  .ib-sub{font-size:10px}
+  .btn-install-sm{padding:8px 18px;font-size:12px;min-width:66px}
+}
+
+@media(max-width:380px){
+  .app-hero{padding:14px;gap:10px}
+  .app-icon{width:70px;height:70px;border-radius:16px}
+  .app-title{font-size:16px}
+  .app-stats{flex-wrap:wrap;gap:4px 0}
+  .stat-item{padding:0 6px;min-width:auto;flex:1}
+  .stat-val{font-size:11px}
+  .stat-label{font-size:9px}
+  .badge{font-size:10px;padding:3px 8px}
+  .btn-install{padding:10px 20px;font-size:12px}
+  .card{padding:12px}
+  .page-wrap{padding:0 12px 90px}
+  .app-list-item{padding:10px;gap:8px}
+  .app-list-ico{width:48px;height:48px;font-size:22px}
+  .app-list-name{font-size:13px}
+  .app-list-dev{font-size:11px}
+  .app-list-desc{font-size:11px}
+  .install-bar{padding:8px 10px;gap:8px}
+  .ib-ico{width:36px;height:36px;border-radius:8px}
+  .ib-name{font-size:11px}
+  .ib-sub{font-size:9px}
+  .btn-install-sm{padding:7px 14px;font-size:11px;min-width:58px}
+}

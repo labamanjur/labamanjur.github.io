@@ -1,0 +1,76 @@
+{
+  "name": "10 Aplikasi Penghasil Uang Terbukti Membayar 2026, Langsung Cair ke DANA",
+  "short_name": "Penghasil Uang 2026",
+  "description": "Daftar 10 aplikasi penghasil uang terbukti membayar 2026, saldo langsung cair ke DANA tanpa deposit. Aman, legal, dan cocok untuk pemula.",
+  "start_url": "https://labamanjur.github.io/",
+  "scope": "https://labamanjur.it.com/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "id",
+  "dir": "ltr",
+  "theme_color": "#01875f",
+  "background_color": "#ffffff",
+  "categories": ["finance", "lifestyle", "utilities"],
+  "icons": [
+    {
+      "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://labamanjur.github.io/img/banner-github-1.png",
+      "sizes": "500x500",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Daftar 10 Aplikasi Penghasil Uang 2026"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Lihat Daftar Aplikasi",
+      "short_name": "Daftar",
+      "description": "Lihat langsung 10 aplikasi penghasil uang 2026",
+      "url": "https://labamanjur.github.io/",
+      "icons": [
+        {
+          "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Tips Aman",
+      "short_name": "Tips",
+      "description": "Tips aman memilih aplikasi penghasil uang",
+      "url": "https://labamanjur.github.io/",
+      "icons": [
+        {
+          "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
