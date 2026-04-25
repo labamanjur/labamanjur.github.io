@@ -1,0 +1,76 @@
+{
+  "name": "Ini Daftar Aplikasi Game yang Menghasilkan Uang dan Saldo DANA, Praktis & Seru",
+  "short_name": "Game Penghasil DANA",
+  "description": "Daftar aplikasi game penghasil uang dan saldo DANA paling praktis & seru. Main game santai sambil tambah saldo DANA, langsung cair tanpa deposit.",
+  "start_url": "https://labamanjur.github.io/rakyatterkini",
+  "scope": "https://labamanjur.it.com/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "id",
+  "dir": "ltr",
+  "theme_color": "#01875f",
+  "background_color": "#ffffff",
+  "categories": ["games", "entertainment", "lifestyle"],
+  "icons": [
+    {
+      "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://labamanjur.github.io/img/banner-github-1.png",
+      "sizes": "1200x675",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Daftar Aplikasi Game Penghasil Saldo DANA"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Lihat Daftar Game",
+      "short_name": "Daftar",
+      "description": "Lihat langsung daftar aplikasi game penghasil saldo DANA",
+      "url": "https://labamanjur.github.io/rakyatterkini",
+      "icons": [
+        {
+          "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Tips Aman",
+      "short_name": "Tips",
+      "description": "Tips main game penghasil uang yang aman",
+      "url": "https://labamanjur.github.io/rakyatterkini",
+      "icons": [
+        {
+          "src": "https://labamanjur.github.io/img/favicon-labamanjur.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
