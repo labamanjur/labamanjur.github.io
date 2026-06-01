@@ -1,0 +1,76 @@
+{
+  "name": "Tren Aplikasi Penghasil Saldo DANA Makin Populer di Kalangan Pengguna Smartphone",
+  "short_name": "Tren Aplikasi DANA",
+  "description": "Aplikasi penghasil saldo DANA makin populer di kalangan pengguna smartphone. Simak tren, alasan, dan daftar aplikasi pilihan yang paling diminati pengguna.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "id",
+  "dir": "ltr",
+  "theme_color": "#01875f",
+  "background_color": "#ffffff",
+  "categories": ["news", "lifestyle", "finance"],
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/banner.png",
+      "sizes": "500x500",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tren Aplikasi Penghasil Saldo DANA Populer"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Lihat Aplikasi Pilihan",
+      "short_name": "Daftar",
+      "description": "Lihat aplikasi penghasil saldo DANA yang sedang populer",
+      "url": "/#daftar-aplikasi",
+      "icons": [
+        {
+          "src": "img/icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Tips Aman",
+      "short_name": "Tips",
+      "description": "Tips memilih aplikasi penghasil DANA yang aman",
+      "url": "/#tips-aman",
+      "icons": [
+        {
+          "src": "img/icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}

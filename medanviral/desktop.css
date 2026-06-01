@@ -1,0 +1,13 @@
+/* ════════════════════════════════════════════════════
+   DESKTOP.CSS — Styling untuk tablet & desktop
+   Loaded via: <link rel="stylesheet" media="(min-width:641px)">
+   Breakpoint: 641px ke atas
+   ════════════════════════════════════════════════════ */
+
+/* ═══ TABLET/DESKTOP TRANSISI (≤960px) ═══ */
+@media(max-width:960px){
+  .main-grid{grid-template-columns:1fr}
+  .app-hero{grid-column:1}
+  .sidebar{position:static}
+  .page-wrap{padding-bottom:48px}
+}
